@@ -1,0 +1,110 @@
+:root{
+   --main-color: #272b30;
+   --seconde-color: #32383e;
+   --color-text: #fff;
+   --btn-main-color: #272729;
+}
+
+body {
+   font-family: "Comfortaa", cursive;
+   min-height: 100%;
+   min-width: 100%;
+   background-color: var(--main-color);
+   color: var(--color-text);
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-family: "Nerko One", cursive;
+   color: var(--color-text) !important;
+}.logo img{
+   width:10%;
+}
+a,p,span {
+   color: inherit !important;
+}
+ul {
+   display: flex;
+   list-style-position: inside;
+   list-style-type: none;
+}li{
+   padding-left:22px;
+}
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover {
+   color: #09c !important;
+   transition: color 0.5s;
+}
+header {
+   padding:15px;
+   background-color: rgb(58, 73, 123) ;
+  display: flex;
+   margin-inline: auto;
+   margin: 30px;
+   border-radius: 20px;
+   box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+}
+
+.game-cards{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 20px;
+}
+
+.card {
+background-color: #282828;
+border-radius: 5px;
+padding: 10px;
+margin: 10px;
+width: 200px;
+text-align: center;
+}
+
+.card img {
+max-width: 100%;
+border-radius: 5px;
+}
+
+.card h2 {
+font-size: 1.2em;
+margin: 10px 0;
+}
+
+.card p {
+font-size: 0.9em;
+}
+.details-overlay {
+   display: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.8);
+   justify-content: center;
+   align-items: center;
+}
+
+.details-content {
+   background-color: #333;
+   padding: 20px;
+   border-radius: 5px;
+   text-align: left;
+   width: 500px;
+   max-width: 90%;
+   position: relative;
+}
+
+.details-content img {
+   max-width: 100%;
+   border-radius: 5px;
+}
+.details-content .close {
+   position: absolute;
+   top: 10px;
+   right: 20px;
+   font-size: 1.5em;
+   cursor: pointer;
+}
+
+ 

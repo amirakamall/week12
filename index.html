@@ -1,0 +1,120 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Reviews</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+   <section class="games">
+      <header>
+         <img src="imges/wraper.png" class="image w-100" alt="game photo" />
+      </header>
+      <nav class="navbar navbar-expand-lg nav-bg position-sticky top-0 z-3 col-md-6 col-lg-9">
+         <div class="container">
+            <h5 class="navbar-brand mb-0 text-uppercase">
+               <img src="imges/logo-sm.png" alt="logo photo" /> Game Reviews
+            </h5>
+            <div class="collapse small navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu small">
+                  <li class="nav-item">
+                     <a  class="nav-link active text-uppercase">mmorpg</a>
+                  </li>
+                  <li class="nav-item">
+                     <a  class="nav-link ">shooter</a>
+                  </li>
+                  <li class="nav-item">
+                     <a  class="nav-link " >sailing</a>
+                  </li>
+                  <li class="nav-item">
+                     <a  class="nav-link">permadeath</a>
+                  </li>
+                  <li class="nav-item">
+                     <a  class="nav-link " >superhero</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link ">pixel</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+      <main class="container my-5 home">
+         <section class="game-cards position-relative">
+         </section>
+      </main>
+   </section>
+
+   
+    <div id="game-details" class="details-overlay">
+        <div class="details-content">
+            <span class="close" onclick="closeDetails()">&times;</span>
+            <img id="game-img" src="" alt="Game Image">
+            <h2 id="game-title">Title</h2>
+            <p><strong>Category:</strong> <span id="game-category"></span></p>
+            <p><strong>Platform:</strong> <span id="game-platform"></span></p>
+            <p><strong>Status:</strong> <span id="game-status"></span></p>
+            <p id="game-description">Description</p>
+            <button>Show Game</button>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Reviews</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+      
+      <div class="logo d-flex">
+         <img src="imges/logo-sm.png " alt="">
+         <h1>GAME REVIEWS</h1>
+      </div>
+        <nav>
+            <ul>
+                <li><a>MMORPG</a></li>
+                <li>SHOOTER</li>
+                <li>SAILING</li>
+                <li>PERMADEATH</li>
+                <li>SUPERHERO</li>
+                <li>PIXEL</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="game-cards">
+         
+        </section>
+    </main>
+
+    
+    <div id="game-details" class="details-overlay">
+        <div class="details-content">
+            <span class="close" onclick="closeDetails()">&times;</span>
+            <img id="game-img" src="" alt="Game Image">
+            <h2 id="game-title">Title</h2>
+            <p><strong>Category:</strong> <span id="game-category"></span></p>
+            <p><strong>Platform:</strong> <span id="game-platform"></span></p>
+            <p><strong>Status:</strong> <span id="game-status"></span></p>
+            <p id="game-description">Description</p>
+            <button class="btn btn-secondary">Show Game</button>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
+
